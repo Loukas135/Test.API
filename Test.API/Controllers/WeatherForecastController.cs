@@ -9,7 +9,7 @@ namespace Test.API.Controllers
 		private static readonly string[] Summaries = new[]
 		{
 			"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching",
-			"Freezing as fuck", "Testing my first workflow", "I love you all"
+			"Freezing as fuck", "Testing my first workflow", "I love you all", "CodeQL"
 		};
 
 		private readonly ILogger<WeatherForecastController> _logger;
@@ -32,4 +32,4 @@ namespace Test.API.Controllers
 		}
 	}
 }
-//now ready to integrate
+//now ready to test the security
